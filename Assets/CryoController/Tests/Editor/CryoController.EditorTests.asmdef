@@ -1,0 +1,32 @@
+{
+    "name": "CryoController.EditorTests",
+    "rootNamespace": "CryoController.EditorTests",
+    "references": [
+        "CryoController",
+        "Unity.InputSystem",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "CRYOCONTROLLER_TEST_FRAMEWORK"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.test-framework",
+            "expression": "1.1.0",
+            "define": "CRYOCONTROLLER_TEST_FRAMEWORK"
+        }
+    ],
+    "noEngineReferences": false
+}
